@@ -14,4 +14,8 @@ with col2:
     i just i did for just learning and fun purpose only.
     so dont get to happy about it.
     """)
+st.header("Courses Offered")
+st.subheader("Data Science")
+st.subheader("Data Analysis")
+st.subheader("Machine Learning")
 
