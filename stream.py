@@ -18,4 +18,5 @@ st.header("Courses Offered")
 st.subheader("Data Science")
 st.subheader("Data Analysis")
 st.subheader("Machine Learning")
-
+st.subheader("Data Visualization")
+st.subheader("Data Analysis & Data Visualization")
