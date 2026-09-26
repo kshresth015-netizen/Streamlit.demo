@@ -25,7 +25,8 @@ st.sidebar.title("About")
 st.sidebar.title("Event")
 st.sidebar.title("Contact")
 
-st.sidebar.selectbox("select one" ,['Teacher', 'student'])
-st.sidebar.button('Select')
+option = st.sidebar.selectbox("select one",["teacher","student","Admin"])
+btn = st.sidebar.button("Select")
 
-st.title("Hello teacher")
+if btn:
+    st.title("Hello" +" " + option)
