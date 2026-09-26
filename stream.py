@@ -24,3 +24,9 @@ st.sidebar.title("Menu")
 st.sidebar.title("About")
 st.sidebar.title("Event")
 st.sidebar.title("Contact")
+
+option = st.sidebar.selectbox("select one",["teacher","student","Admin"])
+btn = st.sidebar.button("Select")
+
+if btn:
+    st.title("Hello" +" " + option)
